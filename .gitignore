@@ -1,0 +1,17 @@
+# Ignorar directorios de datos
+# cleanData/
+SchizoHealth_Clean.csv
+SchizoHealth_Clustered.csv
+SchizoHealth_PCA.csv
+# raw/
+schizophrenia_dataset.csv
+
+# Ignorar archivo de información
+info.txt
+
+#models
+kmeans_model.pkl
+
+# Ignorar archivos de configuración
+cami/
+

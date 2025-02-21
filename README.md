@@ -4,11 +4,11 @@
 ## Descripción
 
 Análisis exploratorio sobre una base de datos de factores demográficos y clínicos relacionados con la esquizofrenia. El objetivo de este análisis es explorar los datos para encontrar posibles patrones y/o relaciones. El flujo de trabajo fue el siguiente: 
- * Transformación y limpieza de datos siguiendo un proceso ETL.
- * Análisis Exploratorio de Datos (EDA).
- * Análisis de los componentes principales (PCA).
- * Aplicación de K-means.
- * Gráficos y pruebas estadísticas de la distribución de los clusters (variables continuas y categóricas).
+* ETL (Transformación y limpieza de datos)
+* EDA (Análisis exploratorio de datos) + Pruebas estadísticas preliminares (Kolmogorov-Smirnov, Levene, etc.)
+* PCA (Análisis de los componentes principales) + Análisis de correlaciones
+* K-means + Evaluación de la calidad de los clusters
+* Análisis de los clusters (Gráficos y pruebas estadísticas para variables continuas y categóricas)
 
 ## Estructura del Proyecto
 

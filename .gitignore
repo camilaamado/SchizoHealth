@@ -1,5 +1,6 @@
 # Ignorar directorios de datos
 # cleanData/
+
 SchizoHealth_Clean.csv
 SchizoHealth_Clustered.csv
 SchizoHealth_PCA.csv

@@ -251,3 +251,6 @@ for var in categorical_vars:
     print(f'Frecuencias relativas de {var} por Cluster:')
     print(freq)
     print("\n")
+
+
+# ===============================================================================================================================================

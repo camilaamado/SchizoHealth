@@ -1,6 +1,6 @@
-# ======================================
-# Análisis Exploratorio de Datos (EDA)
-# ======================================
+# ====================================================================================
+#                                Análisis Exploratorio de Datos (EDA)
+# ===================================================================================
 
 # Import librerias
 import pandas as pd
@@ -11,22 +11,24 @@ import seaborn as sns
 # Importar dataset
 dataset = pd.read_csv("/home/mario/Documents/SchizoHealth/data/cleanData/SchizoHealth_Clean.csv")
 
+# ======================================
 # ANALISIS DE VARIABLES NUMERICAS
+# ======================================
 
 # Histograma 
 dataset[['Age', 'Disease_Duration', 'Positive_Symptom_Score', 'Negative_Symptom_Score', 'GAF_Score']].hist(bins=20, figsize=(15, 10))
 plt.show()
 
-# Boxplot para detectar valores atípicos
+# Boxplot 
 plt.figure(figsize=(12, 8))
 sns.boxplot(data=dataset[['Age', 'Disease_Duration', 'Positive_Symptom_Score', 'Negative_Symptom_Score', 'GAF_Score', 'Hospitalizations']])
 plt.show()
 
+# ======================================
 #ANALISIS DE VARIABLES CATEGORICAS
+# ======================================
 
-# Gráfico de barras para las variables categóricas
-
-
+# Gráfico de barras 
 plt.figure(figsize=(18, 6))  # Tamaño de la figura en pulgadas
 
 # Género
@@ -46,7 +48,6 @@ plt.title('Distribución de Estado Civil')
 
 plt.tight_layout()  # Ajusta el espaciado entre gráficos
 plt.show()
-
 
 # Ocupación
 plt.figure(figsize=(18, 6))

@@ -10,3 +10,4 @@ pandas
 scipy
 numpy
 plotly
+statsmodels

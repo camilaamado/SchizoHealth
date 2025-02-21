@@ -35,7 +35,6 @@ ax = df_clustered['Cluster'].value_counts().plot(kind='pie', autopct='%1.1f%%', 
 plt.axis('equal')
 plt.show()
 
-
 # ========================================================================================
 # 2° Graficos y test estadísticos de la distribución de los cluster (variables continuas)
 # ========================================================================================
@@ -52,7 +51,6 @@ cluster_0_age = df_clustered[df_clustered['Cluster'] == 0]['Age']
 cluster_1_age = df_clustered[df_clustered['Cluster'] == 1]['Age']
 
 print("Comparación de Edades entre Clusters 0 y 1")
-
 # Visualizar distribución de grafica
 plot_distribution(cluster_0_age, "Cluster 0 - Age")
 plot_distribution(cluster_1_age, "Cluster 1 - Age")

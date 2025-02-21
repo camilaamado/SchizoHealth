@@ -41,7 +41,7 @@ plt.plot(range(1, 11), inertia, marker='o')
 plt.title("Método del Codo para elegir el número de clusters")
 plt.xlabel("Número de clusters")
 plt.ylabel("Inercia")
-#plt.show()
+plt.show()
 
 
 # ======================================

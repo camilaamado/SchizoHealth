@@ -4,12 +4,12 @@
                                                    
 
 ## Descripción
-* Procesos de ETL (Extracción, Transformación y Carga), garantizando la consistencia y limpieza de los datos.
-* Análisis Exploratorio de Datos (EDA), aplicando pruebas estadísticas como Kolmogorov-Smirnov, Levene y Chi-Cuadrado para evaluar distribuciones y diferencias entre grupos.
-* Análisis de Componentes Principales (PCA) para analizar correlaciones entre variables y reducir la dimensionalidad.
-* Clustering con K-Means, evaluando la calidad de los clusters mediante: Silhouette Score (cohesión y separación), Índice de Calinski-Harabasz, Índice de Davies-Bouldin, Índice de Dunn y Análisis de Centroides. 
-* Evaluación de multicolinealidad entre variables utilizando el Factor de Inflación de Varianza (VIF).
-* Analisis de los clusters resultantes a través de visualizaciones y pruebas estadísticas para variables tanto continuas como categóricas.
+* **Procesos de ETL (Extracción, Transformación y Carga)**, garantizando la consistencia y limpieza de los datos.
+* **Análisis Exploratorio de Datos (EDA)**, aplicando pruebas estadísticas como Kolmogorov-Smirnov, Levene y Chi-Cuadrado para evaluar distribuciones y diferencias entre grupos.
+* **Análisis de Componentes Principales (PCA)** para analizar correlaciones entre variables y reducir la dimensionalidad.
+* **Clustering con K-Means**, evaluando la calidad de los clusters mediante: Silhouette Score (cohesión y separación), Índice de Calinski-Harabasz, Índice de Davies-Bouldin, Índice de Dunn y Análisis de Centroides. 
+* **Evaluación de multicolinealidad** entre variables utilizando el Factor de Inflación de Varianza (VIF).
+* **Analisis de los clusters** resultantes a través de visualizaciones y pruebas estadísticas para variables tanto continuas como categóricas.
 
 ## Estructura del Proyecto
 

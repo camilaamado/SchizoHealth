@@ -1,14 +1,15 @@
 ![Portada](portada.jpg)
 # Análisis sobre los factores demográficos y clínicos en la esquizofrenia
+                                               
+                                                   
 
 ## Descripción
-
-Análisis exploratorio sobre una base de datos de factores demográficos y clínicos relacionados con la esquizofrenia. El objetivo de este análisis es explorar los datos para encontrar posibles patrones y/o relaciones. El flujo de trabajo fue el siguiente: 
-* ETL (Transformación y limpieza de datos)
-* EDA (Análisis exploratorio de datos) + Pruebas estadísticas preliminares (Kolmogorov-Smirnov, Levene, etc.)
-* PCA (Análisis de los componentes principales) + Análisis de correlaciones
-* K-means + Evaluación de la calidad de los clusters
-* Análisis de los clusters (Gráficos y pruebas estadísticas para variables continuas y categóricas)
+* Procesos de ETL (Extracción, Transformación y Carga), garantizando la consistencia y limpieza de los datos.
+* Análisis Exploratorio de Datos (EDA), aplicando pruebas estadísticas como Kolmogorov-Smirnov, Levene y Chi-Cuadrado para evaluar distribuciones y diferencias entre grupos.
+* Análisis de Componentes Principales (PCA) para analizar correlaciones entre variables y reducir la dimensionalidad.
+* Clustering con K-Means, evaluando la calidad de los clusters mediante: Silhouette Score (cohesión y separación), Índice de Calinski-Harabasz, Índice de Davies-Bouldin, Índice de Dunn y Análisis de Centroides. 
+* Evaluación de multicolinealidad entre variables utilizando el Factor de Inflación de Varianza (VIF).
+* Analisis de los clusters resultantes a través de visualizaciones y pruebas estadísticas para variables tanto continuas como categóricas.
 
 ## Estructura del Proyecto
 
@@ -230,10 +231,7 @@ El análisis de la relación entre el **diagnóstico** y las **variables clínic
 
 ### 1. Análisis de Inflación de la Varianza (VIF)
 
-El análisis de VIF muestra la colinealidad entre las variables del modelo. Los resultados indican que la mayoría de las variables tienen un VIF cercano a 1, lo que sugiere que no presentan colinealidad significativa con las demás variables. Sin embargo, algunas variables presentan un VIF moderado, lo que sugiere una ligera colinealidad.
-
-#### Análisis de los VIF:
-- **VIF Moderado:** 
+ **VIF Moderado:** 
   Las siguientes variables presentan un VIF moderado, lo que indica una moderada colinealidad:
   - **Duracion de la enfermedad:** VIF = 2.74
   - **Hospitalizaciones:** VIF = 2.43
@@ -520,20 +518,6 @@ results/Analisis de los clusters/Distribucion de  ocupacion.png
 | **Uso de Sustancias**       | 85.3% no consume sustancias                 | 41.57% sí consume sustancias                | Cluster 1 tiene mayor prevalencia de consumo de sustancias.     |
 | **Intento de Suicidio**     | 99.98% no ha intentado suicidarse           | 33.46% sí ha intentado suicidarse           | Cluster 1 tiene mayor incidencia de intentos de suicidio.       |
 | **Adherencia a la Medicación** | 50.35% alta adherencia                    | 52.33% baja adherencia                      | Cluster 1 tiene más dificultades para seguir el tratamiento.   |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
